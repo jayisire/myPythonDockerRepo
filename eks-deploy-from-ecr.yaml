@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: jay-docker-repository
-        image: 775910509366.dkr.ecr.us-east-2.amazonaws.com/jay-docker-repository
+        image: 775910509366.dkr.ecr.us-east-2.amazonaws.com/jay-docker-repo
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
